@@ -1,0 +1,21 @@
+{
+    "name": "zuhri/php-scraper",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Zuhri\\PhpScraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zuhriutama",
+            "email": "zuhriutama@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/browser-kit": "^6.4",
+        "symfony/http-client": "^6.4",
+        "symfony/css-selector": "^6.4"
+    }
+}
