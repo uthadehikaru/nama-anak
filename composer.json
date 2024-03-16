@@ -12,10 +12,16 @@
             "email": "zuhriutama@gmail.com"
         }
     ],
+    "scripts": {
+        "deploy" : "./vendor/bin/envoy run deploy"
+    },
     "minimum-stability": "stable",
     "require": {
         "symfony/browser-kit": "^6.4",
         "symfony/http-client": "^6.4",
         "symfony/css-selector": "^6.4"
+    },
+    "require-dev": {
+        "laravel/envoy": "^2.9"
     }
 }
