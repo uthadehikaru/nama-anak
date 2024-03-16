@@ -1,6 +1,6 @@
 <?php
 $data = null;
-if($_GET['nama']){
+if(isset($_GET['nama'])){
     $db = new SQLite3('nama.db');
 
     $nama = $_GET['nama'];
@@ -15,7 +15,7 @@ if($_GET['nama']){
         $url = "/index.php?nama=".$nama;
     }
 }
-if($_GET['words']){
+if(isset($_GET['words'])){
     $db = new SQLite3('nama.db');
 
     $words = $_GET['words'] ?? 1;
